@@ -1,0 +1,20 @@
+{
+  "name": "aurbit.io",
+  "version": "0.0.1",
+  "description": "Aurbit Landing page",
+  "private": true,
+  "scripts": {
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+    "build": "node ./node_modules/gulp/bin/gulp.js build",
+    "gulp": "node ./node_modules/gulp/bin/gulp.js"
+  },
+  "author": "Chad Lynch <chad@aurbti.io>, Charlotte Mae Efren <charlotte@aurbit.io>",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "dotenv": "^6.2.0",
+    "gulp": "^4.0.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {}
+}
