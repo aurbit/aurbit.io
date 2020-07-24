@@ -1,4 +1,5 @@
 const ethereumButton = document.querySelector('.enableEthereumButton')
+const chain = document.getElementById('chain')
 
 ethereumButton.addEventListener('click', async () => {
   //Will Start the metamask extension
@@ -6,10 +7,8 @@ ethereumButton.addEventListener('click', async () => {
 })
 
 if (typeof window.ethereum !== 'undefined') {
-  const ethBtn = document.getElementById('ethereumButton')
-  const chain = document.getElementById('chain')
   // add the address to the button text
-  ethBtn.innerText = window.ethereum.selectedAddress
+  ethereumButton.innerText = window.ethereum.selectedAddress || 'Connect'
   // update the button text
   ethereum.on('accountsChanged', accounts => {
     ethBtn.innerText = accounts
@@ -47,4 +46,5 @@ if (typeof window.ethereum !== 'undefined') {
   ethereum.on('chainChanged', chainId => {
     window.location.reload()
   })
+} else {
 }
