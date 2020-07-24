@@ -1,5 +1,5 @@
 async function main () {
-  const ethereumButton = await document.querySelector('.enableEthereumButton')
+  const ethereumButton = await document.getElementById('ethereumButton')
   const chain = await document.getElementById('chain')
 
   ethereumButton.addEventListener('click', async () => {
@@ -22,7 +22,6 @@ async function main () {
         chain.innerText = 'Mainnet'
         break
       }
-
       case '0x3': {
         chain.innerText = 'Ropsten'
         break
