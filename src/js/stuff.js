@@ -13,7 +13,7 @@ async function main () {
     chain.innerText = 'None'
     // update the button text
     ethereum.on('accountsChanged', accounts => {
-      ethBtn.innerText = accounts
+      ethereumButton.innerText = accounts
     })
 
     // switch the chain text
