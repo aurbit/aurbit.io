@@ -1,6 +1,6 @@
-## Aurbit Forever
+## Project Aurbit
 
-This is the Aurbit Forever, Ltd. Pte. landing page.
+Project Aurbit was created for HackFS, an ETHGlboal hacathon in 2020.
 
 ### Development
 
@@ -17,3 +17,7 @@ Run develop mode:
 ```
 npm start
 ```
+
+### Deployment
+
+This repo is conected to Fleek Hosting and will automatically deploy to https://aurbit.io on merges to master.
