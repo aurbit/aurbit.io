@@ -16,6 +16,13 @@ $(window).scroll(function() {
 
 	});
 
+
+function topFunction() {
+  $("html, body").animate({ scrollTop: 0 }, 600); 
+  return false; 
+}
+
+
 //smooth scroll
 $(document).ready(function(){
   // Add smooth scrolling to all links
