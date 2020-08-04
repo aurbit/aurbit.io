@@ -1,6 +1,6 @@
 ## Project Aurbit
 
-Project Aurbit was created for HackFS, an ETHGlboal hacathon in 2020.
+Project Aurbit was created for HackFS, an ETHGlobal hackathon in 2020.
 
 ### Development
 
