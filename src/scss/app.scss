@@ -35,6 +35,13 @@
       transition: all 0.3s;
     }
 
+    .row{
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    
+
+
   }
 
   #app{
@@ -665,10 +672,6 @@
 
 
   #main_container{
-    .row{
-      margin: 0;
-    }
-    
 
     #teaser{
       .planet{
