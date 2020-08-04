@@ -22,8 +22,6 @@
     line-height: $line-height-base;
     margin: 0;
     padding: 0;
-    width: 100%;
-    overflow-x: hidden;
 
     h1, h2, h3, h4, h5, h6{
       font-family: $montserrat;
@@ -42,7 +40,6 @@
   #app{
     padding: 0;
     margin: 0;
-    width: 100%;
   }
 
 
@@ -194,7 +191,6 @@
 
 
   #content-wrapper{
-    width: 100%;
     margin-top: 100vh;
     position: relative;
     z-index: 100;
@@ -221,6 +217,7 @@
       background-position: top center;
       display: block;
       width: 100%;
+      margin: 0;
       margin-top: -10px;
     }
 
@@ -262,6 +259,7 @@
     }
 
     #avatars{
+      width: 100%;
       min-height: 100vh;
 
       .container{
@@ -295,6 +293,7 @@
     }
 
     #game{
+      width: 100%;
       min-height: 100vh;
 
       .container{
@@ -341,6 +340,7 @@
       min-height: 100vh;
       background: #fff;
       color: #000;
+      width: 100%;
 
       .container{
         padding: 160px 0 100px;
@@ -392,6 +392,7 @@
       color: #000;
       min-height: 100vh;
       margin-top: -5px;
+      width: 100%;
 
       .container{
         padding: 140px 0 100px;
@@ -664,6 +665,10 @@
 
 
   #main_container{
+    .row{
+      margin: 0;
+    }
+    
 
     #teaser{
       .planet{
@@ -706,6 +711,7 @@
 
       main#content-area{
         margin-top: -80px;
+
       }
 
       #project{

@@ -8,9 +8,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.6;
   margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden; }
+  padding: 0; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: "Montserrat", Helvetica, sans-serif; }
   body a,
@@ -22,8 +20,7 @@ body {
 
 #app {
   padding: 0;
-  margin: 0;
-  width: 100%; }
+  margin: 0; }
 
 /* Page Settings */
 /* Navigation */
@@ -118,7 +115,6 @@ nav#main-nav {
         #main_container #teaser .main-area .btn-play:hover {
           background: #00a848; }
   #main_container #content-wrapper {
-    width: 100%;
     margin-top: 100vh;
     position: relative;
     z-index: 100; }
@@ -140,6 +136,7 @@ nav#main-nav {
       background-position: top center;
       display: block;
       width: 100%;
+      margin: 0;
       margin-top: -10px; }
     #main_container #content-wrapper #project .container {
       padding: 300px 0 100px; }
@@ -162,6 +159,7 @@ nav#main-nav {
           -webkit-transform: scaleX(-1);
           transform: scaleX(-1); }
     #main_container #content-wrapper #avatars {
+      width: 100%;
       min-height: 100vh; }
       #main_container #content-wrapper #avatars .container {
         padding: 140px 0; }
@@ -180,6 +178,7 @@ nav#main-nav {
         #main_container #content-wrapper #avatars .container p {
           font-size: 1rem; }
     #main_container #content-wrapper #game {
+      width: 100%;
       min-height: 100vh; }
       #main_container #content-wrapper #game .container {
         padding: 140px 0; }
@@ -207,7 +206,8 @@ nav#main-nav {
     #main_container #content-wrapper #tech {
       min-height: 100vh;
       background: #fff;
-      color: #000; }
+      color: #000;
+      width: 100%; }
       #main_container #content-wrapper #tech .container {
         padding: 160px 0 100px; }
         #main_container #content-wrapper #tech .container h2 {
@@ -237,7 +237,8 @@ nav#main-nav {
       background: #fff;
       color: #000;
       min-height: 100vh;
-      margin-top: -5px; }
+      margin-top: -5px;
+      width: 100%; }
       #main_container #content-wrapper #team .container {
         padding: 140px 0 100px; }
         #main_container #content-wrapper #team .container h2 {
@@ -366,6 +367,8 @@ nav#main-nav {
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
+  #main_container .row {
+    margin: 0; }
   #main_container #teaser .planet {
     top: -30%;
     left: -20%;
