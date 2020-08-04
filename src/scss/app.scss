@@ -56,7 +56,8 @@
 /* Navigation */
 
   nav#main-nav{
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 0;
     background: transparent;
     transition: all 0.3s ease;
@@ -97,6 +98,8 @@
 
 
     }
+
+
   }
 
   .page-is-scrolled #main-nav{
@@ -120,7 +123,6 @@
     #navbarSupportedContent{
       padding: 10px 0;
     }
-
   }
 
 /* Navigation */
@@ -541,9 +543,22 @@
     ##Screen = B/w 768px to 1024px
   */
 
+  nav#main-nav{
+    .navbar-collapse{
+      background: rgba(0,0,0,0.8);
+    }
+  }
 
   .page-is-scrolled #main-nav{
-    padding: 15px 0;
+    .navbar-collapse{
+      background: transparent;  
+    }
+  }
+
+
+  .page-is-scrolled #main-nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
 
     #logo{
       margin-top: 10px;
@@ -628,6 +643,7 @@
     ##Screen = B/w 768px to 1024px
   */
 
+
   #main_container{
 
     #teaser{
@@ -669,6 +685,20 @@
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
+
+
+  nav#main-nav{
+    .navbar-collapse{
+      background: rgba(0,0,0,0.8);
+    }
+  }
+
+  .page-is-scrolled #main-nav{
+    .navbar-collapse{
+      background: transparent;  
+    }
+  }
+
 
 
   #main_container{
@@ -757,16 +787,10 @@
     ##Screen = B/w 320px to 479px
   */
 
-
-
-
-
-
-
   /* Navigation */
 
     nav#main-nav{
-      padding: 30px 20px;
+      padding: 30px 20px !important;
       margin: 0;
       background: transparent;
       transition: all 0.3s ease;
@@ -807,12 +831,18 @@
 
 
       }
+
+      .navbar-collapse{
+        background: rgba(0,0,0,0.8);
+      }
+
+
     }
 
     .page-is-scrolled #main-nav{
       background: rgba(0,0,0,0.8);
       transition: all 0.3s ease;
-      padding: 10px 20px;
+      padding: 10px 20px !important;
 
       #logo{
         margin-top: 10px;
@@ -831,6 +861,10 @@
         padding: 10px 0;
       }
 
+      .navbar-collapse{
+        background: transparent;  
+      }
+
     }
 
   /* Navigation */
@@ -839,6 +873,7 @@
 
   #main_container{
     width: 100%;
+
 
     #teaser{
       height: 100vh;
@@ -866,6 +901,7 @@
 
         .container{
           padding-top: 120px;
+
         }
 
         h1{
@@ -895,6 +931,12 @@
         margin-top: -80px;
 
 
+        .container{
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+
+
       }
 
       #project{
@@ -915,6 +957,35 @@
           top: 45%;
           right: -30%;
           width: 100%;
+        }
+      }
+
+
+
+
+      #tech{
+
+        .container{
+
+          .tech-info{
+            display: flex;
+            flex-direction: column !important;
+
+            .tech-logo{
+              width: 100%;
+              margin-bottom: 30px;
+            }
+
+            .tech-blurb{
+              width: 100%;
+              font-size: 1.1rem;
+
+              h6{
+                font-size: 1.3rem;
+                font-weight: 600;
+              }
+            }
+          }
         }
       }
 

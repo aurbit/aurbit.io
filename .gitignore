@@ -3,3 +3,4 @@ dist
 .env
 node_modules
 cloudfront-cache
+src/index-bak.html

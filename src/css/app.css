@@ -28,7 +28,8 @@ body {
 /* Page Settings */
 /* Navigation */
 nav#main-nav {
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin: 0;
   background: transparent;
   transition: all 0.3s ease; }
@@ -314,8 +315,13 @@ nav#main-nav {
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
+  nav#main-nav .navbar-collapse {
+    background: rgba(0, 0, 0, 0.8); }
+  .page-is-scrolled #main-nav .navbar-collapse {
+    background: transparent; }
   .page-is-scrolled #main-nav {
-    padding: 15px 0; }
+    padding-top: 15px;
+    padding-bottom: 15px; }
     .page-is-scrolled #main-nav #logo {
       margin-top: 10px;
       width: auto;
@@ -370,6 +376,10 @@ nav#main-nav {
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
+  nav#main-nav .navbar-collapse {
+    background: rgba(0, 0, 0, 0.8); }
+  .page-is-scrolled #main-nav .navbar-collapse {
+    background: transparent; }
   #main_container #teaser .planet {
     top: -30%;
     left: -20%;
@@ -406,7 +416,7 @@ nav#main-nav {
   */
   /* Navigation */
   nav#main-nav {
-    padding: 30px 20px;
+    padding: 30px 20px !important;
     margin: 0;
     background: transparent;
     transition: all 0.3s ease; }
@@ -428,10 +438,12 @@ nav#main-nav {
           color: #468BDB; }
     nav#main-nav #navbarSupportedContent li.active a.nav-link {
       color: #468BDB; }
+    nav#main-nav .navbar-collapse {
+      background: rgba(0, 0, 0, 0.8); }
   .page-is-scrolled #main-nav {
     background: rgba(0, 0, 0, 0.8);
     transition: all 0.3s ease;
-    padding: 10px 20px; }
+    padding: 10px 20px !important; }
     .page-is-scrolled #main-nav #logo {
       margin-top: 10px;
       width: auto;
@@ -442,6 +454,8 @@ nav#main-nav {
         height: 50px; }
     .page-is-scrolled #main-nav #navbarSupportedContent {
       padding: 10px 0; }
+    .page-is-scrolled #main-nav .navbar-collapse {
+      background: transparent; }
   /* Navigation */
   #main_container {
     width: 100%; }
@@ -475,6 +489,9 @@ nav#main-nav {
         font-size: 2rem; }
       #main_container #content-wrapper main#content-area {
         margin-top: -80px; }
+        #main_container #content-wrapper main#content-area .container {
+          padding-left: 10px;
+          padding-right: 10px; }
       #main_container #content-wrapper #project .container {
         padding: 50px 0 100px; }
         #main_container #content-wrapper #project .container p {
@@ -482,4 +499,16 @@ nav#main-nav {
       #main_container #content-wrapper .planet-holder .planet {
         top: 45%;
         right: -30%;
-        width: 100%; } }
+        width: 100%; }
+      #main_container #content-wrapper #tech .container .tech-info {
+        display: flex;
+        flex-direction: column !important; }
+        #main_container #content-wrapper #tech .container .tech-info .tech-logo {
+          width: 100%;
+          margin-bottom: 30px; }
+        #main_container #content-wrapper #tech .container .tech-info .tech-blurb {
+          width: 100%;
+          font-size: 1.1rem; }
+          #main_container #content-wrapper #tech .container .tech-info .tech-blurb h6 {
+            font-size: 1.3rem;
+            font-weight: 600; } }
