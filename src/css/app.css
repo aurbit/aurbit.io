@@ -310,6 +310,19 @@ nav#main-nav {
       color: #666;
       text-transform: uppercase; }
 
+.modal {
+  color: #000; }
+  .modal h5.modal-title {
+    font-size: 1.7rem;
+    font-weight: 600; }
+  .modal button.close {
+    font-size: 3rem;
+    padding: .5rem 1rem; }
+  .modal h6 {
+    font-weight: 600; }
+  .modal p {
+    padding-bottom: 10px; }
+
 @media (min-width: 768px) and (max-width: 1024px) {
   /* 
     ##Device = Tablets, Ipads (portrait)

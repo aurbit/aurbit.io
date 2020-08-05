@@ -249,7 +249,10 @@
                   </p>
 
                   <div class="text-center">
-                    <a href="#" class="btn btn-primary">Learn More</a>
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalAvatars">
+                      Learn More
+                    </button>
                   </div>
 
                 </div>
@@ -274,7 +277,11 @@
                   </p>
 
                   <div class="text-center">
-                    <a href="#" class="btn btn-primary">Learn More</a>
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalGameMechanics">
+                      Learn More
+                    </button>
+
                   </div>
 
                 </div>
@@ -298,8 +305,12 @@
                     amet metus interdum suscipit.
                   </p>
 
+
+
                   <div class="text-center">
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalSmartContracts">
+                      Learn More
+                    </button>
                   </div>
 
                 </div>
@@ -664,6 +675,10 @@ __SVGATOR_PLAYER__.build({"root":"epk991pw2rm1","animations":[{"duration":2000,"
 
       </footer>
    
+
+
+
+
     </div>
 
 
@@ -675,6 +690,153 @@ __SVGATOR_PLAYER__.build({"root":"epk991pw2rm1","animations":[{"duration":2000,"
 
 
 
+<!-- Modal Avatars -->
+  <div class="modal fade" id="modalAvatars" tabindex="-1" role="dialog" aria-labelledby="modalAvatars" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Avatars</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <p>
+            Avatars are unique using ERC721 non-fungible tokens. The DNA of the avatar includes the following parameters:
+          </p>
+
+
+          <p>
+            [<br />
+            haircolor[0],<br />
+            haircolor[1],<br />
+            haircolor[2],<br />
+            eyecolor[0],<br />
+            eyecolor[1],<br />
+            eyecolor[2],<br />
+            skincolor[0],<br />
+            skincolor[1],<br />
+            skincolor[2],<br />
+            hairtype,<br />
+            eyetype,<br />
+            skintype,<br />
+            mouth,<br />
+            gender,<br />
+            race<br />
+            ]
+          </p>
+
+          <p>
+            Based on these values, we build a Unique DNA integer for the Avatar that looks like this:
+          </p>
+
+          <p>
+            <strong>
+              [76,98,65, 228, 239, 117, 68, 239, 5, 4, 239, 153, 5, 2, 9, 3, 85]
+            </strong>
+          </p>
+
+          <p>
+            The AvatarAUR contract stores the DNA as a byte array which is used to render and keep the unique state of the avatar. The token ID of the avatar in the ERC 721 contract is used as the user ID in the Planet.sol (game) contract.
+          </p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- Modal Avatars -->
+
+
+
+<!-- Modal Game Mechanics -->
+  <div class="modal fade" id="modalGameMechanics" tabindex="-1" role="dialog" aria-labelledby="modalGameMechanics" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Game Mechanics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+
+
+          <h6>Buy</h6>
+
+          <p>
+            Unclaimed map pixels can be bought or ETH, however, if the Pixel is owned, the cost is 3x. The previous owner receives the fee.
+          </p>
+
+          <h6>Von Neumann</h6>
+
+          <p>
+            If you buy a pixel diagonal to a held pixel, you will own the two immediate Von Neumann neighbors. This is similar to how the Go board game.
+          </p>
+
+
+          <h6>Aerial Attack</h6>
+
+          <p>
+             A pixel can be attacked whereby a randomized algorithm includes the DNA of the avatars, the tokens allocated to the pixel, and a home turf advantage. An attack burns AUR tokens for both players.
+          </p>
+
+
+        
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- Modal Game Mechanics -->
+
+
+
+
+<!-- Modal Game Mechanics -->
+  <div class="modal fade" id="modalSmartContracts" tabindex="-1" role="dialog" aria-labelledby="modalSmartContracts" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Smart Contracts</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+
+
+          <h6>Lorem ipsum</h6>
+
+          <p>
+            Maecenas elementum mauris sed sodales malesuada. Praesent elementum, urna ac pharetra gravida, est ante congue velit, a sollicitudin elit velit et nunc. Praesent sed ante at nisi euismod condimentum. Integer nec finibus sapien. Aliquam ut semper eros, et placerat mauris. Vestibulum nibh purus, laoreet ac nulla nec, tincidunt efficitur ex. Phasellus ut finibus ligula. Suspendisse sit amet pretium lectus.
+          </p>
+
+
+        
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- Modal Game Mechanics -->
 
 
 

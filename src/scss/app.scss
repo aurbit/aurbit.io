@@ -537,6 +537,31 @@
 
 
 
+.modal{
+  color: #000;
+
+
+  h5.modal-title{
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  button.close{
+    font-size: 3rem;
+    padding: .5rem 1rem;
+  }
+
+  h6{
+    font-weight: 600;
+  }
+
+  p{
+    padding-bottom: 10px;
+  }
+
+}
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
   /* 
     ##Device = Tablets, Ipads (portrait)
