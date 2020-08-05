@@ -5,11 +5,16 @@ body {
   background: #000;
   color: #fff;
   font-family: "Raleway", Helvetica, sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   margin: 0;
   padding: 0; }
-  body h1, body h2, body h3, body h4, body h5, body h6 {
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6 {
     font-family: "Montserrat", Helvetica, sans-serif; }
   body a,
   body a:hover,
@@ -48,9 +53,9 @@ nav#main-nav {
       text-transform: uppercase;
       color: #fff; }
       nav#main-nav #navbarSupportedContent li a.nav-link:hover {
-        color: #468BDB; }
+        color: #468bdb; }
   nav#main-nav #navbarSupportedContent li.active a.nav-link {
-    color: #468BDB; }
+    color: #468bdb; }
 
 .page-is-scrolled #main-nav {
   background: rgba(0, 0, 0, 0.8);
@@ -107,7 +112,7 @@ nav#main-nav {
         font-size: 4.5rem;
         font-weight: 800; }
       #main_container #teaser .main-area .btn-play {
-        background: #00D15A;
+        background: #00d15a;
         font-family: "Montserrat", Helvetica, sans-serif;
         text-transform: uppercase;
         border: 0;
@@ -180,17 +185,19 @@ nav#main-nav {
           text-align: center;
           margin-bottom: 20px; }
         #main_container #content-wrapper #avatars .container p {
-          font-size: 1rem; }
+          font-size: 1.2rem; }
     #main_container #content-wrapper #game {
       width: 100%;
       min-height: 100vh; }
       #main_container #content-wrapper #game .container {
         padding: 140px 0; }
         #main_container #content-wrapper #game .container .col-md-4 {
-          padding-top: 60px; }
+          padding-top: 60px;
+          padding: 50px; }
         #main_container #content-wrapper #game .container .avatar-img {
           width: 70%;
-          margin: 0 auto; }
+          margin: 0 auto;
+          visibility: hidden; }
           #main_container #content-wrapper #game .container .avatar-img svg {
             border-radius: 50%; }
         #main_container #content-wrapper #game .container h4 {
@@ -199,10 +206,10 @@ nav#main-nav {
           text-align: center;
           margin-bottom: 20px; }
         #main_container #content-wrapper #game .container p {
-          font-size: 1rem;
+          font-size: 1.2rem;
           margin-bottom: 20px; }
         #main_container #content-wrapper #game .container .btn {
-          color: #014DBF;
+          color: #014dbf;
           border-radius: 50px;
           color: #fff;
           padding: 10px 30px;
@@ -317,7 +324,7 @@ nav#main-nav {
     font-weight: 600; }
   .modal button.close {
     font-size: 3rem;
-    padding: .5rem 1rem; }
+    padding: 0.5rem 1rem; }
   .modal h6 {
     font-weight: 600; }
   .modal p {
@@ -448,9 +455,9 @@ nav#main-nav {
         text-transform: uppercase;
         color: #fff; }
         nav#main-nav #navbarSupportedContent li a.nav-link:hover {
-          color: #468BDB; }
+          color: #468bdb; }
     nav#main-nav #navbarSupportedContent li.active a.nav-link {
-      color: #468BDB; }
+      color: #468bdb; }
     nav#main-nav .navbar-collapse {
       background: rgba(0, 0, 0, 0.8); }
   .page-is-scrolled #main-nav {
