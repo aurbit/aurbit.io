@@ -304,11 +304,14 @@ nav#main-nav {
         }
 
         .avatar-img {
-          width: 70%;
+          width: 60%;
           margin: 0 auto;
-          visibility: hidden;
 
           svg {
+            border-radius: 50%;
+          }
+
+          img {
             border-radius: 50%;
           }
         }

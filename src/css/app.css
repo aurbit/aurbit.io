@@ -197,10 +197,11 @@ nav#main-nav {
           padding-top: 60px;
           padding-bottom: 60px; }
         #main_container #content-wrapper #game .container .avatar-img {
-          width: 70%;
-          margin: 0 auto;
-          visibility: hidden; }
+          width: 60%;
+          margin: 0 auto; }
           #main_container #content-wrapper #game .container .avatar-img svg {
+            border-radius: 50%; }
+          #main_container #content-wrapper #game .container .avatar-img img {
             border-radius: 50%; }
         #main_container #content-wrapper #game .container h4 {
           padding-top: 20px;
