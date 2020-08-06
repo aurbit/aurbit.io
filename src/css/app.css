@@ -179,6 +179,8 @@ nav#main-nav {
           margin: 0 auto; }
           #main_container #content-wrapper #avatars .container .avatar-img svg {
             border-radius: 50%; }
+          #main_container #content-wrapper #avatars .container .avatar-img img {
+            border-radius: 50%; }
         #main_container #content-wrapper #avatars .container h4 {
           padding-top: 20px;
           text-transform: uppercase;
@@ -193,7 +195,7 @@ nav#main-nav {
         padding: 140px 0; }
         #main_container #content-wrapper #game .container .col-md-4 {
           padding-top: 60px;
-          padding: 50px; }
+          padding-bottom: 60px; }
         #main_container #content-wrapper #game .container .avatar-img {
           width: 70%;
           margin: 0 auto;

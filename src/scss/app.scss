@@ -271,6 +271,10 @@ nav#main-nav {
           svg {
             border-radius: 50%;
           }
+
+          img {
+            border-radius: 50%;
+          }
         }
 
         h4 {
@@ -295,7 +299,8 @@ nav#main-nav {
 
         .col-md-4 {
           padding-top: 60px;
-          padding: 50px;
+          padding-bottom: 60px;
+
         }
 
         .avatar-img {
